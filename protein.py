@@ -12,7 +12,7 @@ def chou_fasman(sequence):
   helix_propensity = {'A': 1.42, 'L': 1.34, 'S': 0.74, 'E': 1.25, 'G': 0.54}
   sheet_propensity = {'V': 1.14, 'I': 1.05, 'Y': 0.74, 'F': 1.19, 'C': 0.71}
 
-  # Other amino acids have propensities, but we'll simplify for this example
+  # Other amino acids have propensities, but simplify for this example
 
   prediction = []
   for i in range(len(sequence)):
